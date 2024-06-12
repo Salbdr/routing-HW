@@ -1,0 +1,27 @@
+.btns{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    flex-wrap: wrap;
+
+}
+.btns a{
+width: calc(20% - 10px);
+
+
+}
+
+.card{
+    align-items: center;
+}
+
+@media ( max-width:725px) {
+    .btns a {
+        width: calc(50% - 10px);
+        margin: 10px 0;
+    }
+    
+}
